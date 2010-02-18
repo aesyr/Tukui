@@ -10,7 +10,7 @@ local myname, _ = UnitName("player")
 -- Layout (if you want a different layout)
 -------------------------------------------------------------------------------------------------------------------------------
 
-Tukui4BarsBottom = false					-- Automatically configure 4 bars at the bottom instead of 2
+Tukui4BarsBottom = true					-- Automatically configure 4 bars at the bottom instead of 2
 
 -------------------------------------------------------------------------------------------------------------------------------
 -- Features we want to enable or disable in Tukui! Useful if you want to use something else!

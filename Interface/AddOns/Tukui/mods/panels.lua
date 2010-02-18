@@ -8,7 +8,7 @@ FONT 				= "fonts\\ARIALN.ttf"
 --------------------------------------------------------------------
 -- PET BAR BG
 --------------------------------------------------------------------
-if not (IsAddOnLoaded("Dominos") or IsAddOnLoaded("Bartender4") or IsAddOnLoaded("Macaroon") or IsAddOnLoaded("XBar")) then
+if not (IsAddOnLoaded("Dominos") or IsAddOnLoaded("Bartender4") or IsAddOnLoaded("Macaroon") or IsAddOnLoaded("XBar")) or IsAddOnLoaded('Aesyr')) then
 	if TukuiBars == true and bar345rightpanels == true then
 		local petbg = CreateFrame("Frame", petbg, PetActionButton1)
 		petbg:SetFrameLevel(0)
