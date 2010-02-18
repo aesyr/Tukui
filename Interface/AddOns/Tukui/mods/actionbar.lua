@@ -2,7 +2,7 @@
 
   -- tActionBars is based on rActionBarStyler by Zork.
   
-if (not TukuiBars == true) or (IsAddOnLoaded("Dominos") or IsAddOnLoaded("Bartender4") or IsAddOnLoaded("Macaroon") or IsAddOnLoaded("XBar")) or IsAddOnLoaded('Aesyr')) then return end
+if (not TukuiBars == true) or (IsAddOnLoaded("Dominos") or IsAddOnLoaded("Bartender4") or IsAddOnLoaded("Macaroon") or IsAddOnLoaded("XBar")) then return end
 
   -- space between button
   padding = 4

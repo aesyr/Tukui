@@ -16,8 +16,8 @@ Tukui4BarsBottom = true					-- Automatically configure 4 bars at the bottom inst
 -- Features we want to enable or disable in Tukui! Useful if you want to use something else!
 -------------------------------------------------------------------------------------------------------------------------------
 
-TukuiBags = true							-- enable or disable bags
-TukuiBars = true							-- enable or disable action bars
+TukuiBags = false							-- enable or disable bags
+TukuiBars = false							-- enable or disable action bars
 TukuiUF = true								-- enable or disable unit frames
 TukuiChat = true							-- enable or disable tukui chat
 TukuiTooltip = true							-- enable or disable tukui tooltip
