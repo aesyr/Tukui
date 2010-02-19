@@ -1102,9 +1102,12 @@ local SetStyle = function(self, unit)
 			self.Castbar:SetPoint("TOPRIGHT", self.Power, "BOTTOMRIGHT", -2, -3)
 		elseif unit == "target" then
 			self.Castbar:SetFrameLevel(6)
-			self.Castbar:SetHeight(17)
-			self.Castbar:SetPoint("TOPLEFT", self.Power, "BOTTOMLEFT", 2, -3)
-			self.Castbar:SetPoint("TOPRIGHT", self.Power, "BOTTOMRIGHT", -2, -3)
+			self.Castbar:SetHeight(20)
+			self.Castbar:SetWidth(220)
+			self.Castbar:SetPoint("CENTER", UIParent, "CENTER", 0, -100)
+			self.Castbar:SetBackdrop(backdrop)
+			self.Castbar:SetStatusBarColor(255/255, 0/255, 0/255, 0.6)
+			self.Castbar:SetBackdropColor(1,1,1,0.6)
 			
 		elseif unit == "focus" then
 			self.Castbar:SetFrameLevel(6)
@@ -1181,11 +1184,7 @@ local SetStyle = function(self, unit)
 						self.Castbar.Icon:SetPoint("LEFT", -46.5, 26.5)
 					end
 				elseif unit == "target" then
-					if charportrait == true then
-						self.Castbar.Icon:SetPoint("RIGHT", 82.5, 26.5)
-					else
-						self.Castbar.Icon:SetPoint("RIGHT", 46.5, 26.5)
-					end
+					self.Castbar.Icon:SetPoint("LEFT", -30, 0)
 				elseif unit == "focus" then
 					self.Castbar.Icon:SetHeight(30)
 					self.Castbar.Icon:SetWidth(30)
