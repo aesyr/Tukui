@@ -1473,11 +1473,11 @@ end
 oUF:RegisterStyle("Tukz", SetStyle)
 oUF:SetActiveStyle("Tukz")
 
-oUF:Spawn("player", "oUF_Tukz_player"):SetPoint("BOTTOM", UIParent, -224, 60 + uflayoutpos)
-oUF:Spawn("target", "oUF_Tukz_target"):SetPoint("BOTTOM", UIParent, 224, 60 + uflayoutpos)
-oUF:Spawn("pet", "oUF_Tukz_pet"):SetPoint("BOTTOM", 0, 104 + uflayoutpos)
+oUF:Spawn("player", "oUF_Tukz_player"):SetPoint("BOTTOM", UIParent, -224, 100 + uflayoutpos)
+oUF:Spawn("target", "oUF_Tukz_target"):SetPoint("BOTTOM", UIParent, 224, 100 + uflayoutpos)
+oUF:Spawn("pet", "oUF_Tukz_pet"):SetPoint("BOTTOM", 0, 144 + uflayoutpos)
 oUF:Spawn("focus", "oUF_Tukz_focus"):SetPoint("BOTTOMRIGHT", -34, 20)
-oUF:Spawn("targettarget", "oUF_Tukz_targettarget"):SetPoint("BOTTOM", 0, 60 + uflayoutpos)
+oUF:Spawn("targettarget", "oUF_Tukz_targettarget"):SetPoint("BOTTOM", 0, 100 + uflayoutpos)
 
 if showfocustarget == true then oUF:Spawn("focustarget", "oUF_Tukz_focustarget"):SetPoint("BOTTOM", 0, 224) end
 
