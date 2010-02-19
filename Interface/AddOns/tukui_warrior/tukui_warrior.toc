@@ -1,0 +1,11 @@
+## Interface: 30300
+## Author: Marian "fyrn" Rudzynski
+## Title: |cffC495DDTukui CLASS|r (Warrior)
+## Notes: Class AddOn for Warriors
+## X-Email: fyrn@aesyr.com
+## X-Category: Tukui
+## RequiredDeps: Tukui
+
+warrior.lua
+
+

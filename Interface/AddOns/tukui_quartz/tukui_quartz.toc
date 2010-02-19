@@ -1,0 +1,11 @@
+## Interface: 30300
+## Author: Marian "fyrn" Rudzynski
+## Title: |cffC495DDTukui ADDON|r (Quartz)
+## Notes: 
+## X-Email: fyrn@aesyr.com
+## X-Category: Tukui
+## RequiredDeps: Tukui
+
+tukui_quartz.lua
+
+
