@@ -31,7 +31,7 @@ TukuiSellGray = true						-- enable auto sell via vendors for gray shitty item
 TukuiAutoRepair = true						-- enable auto repair because i always forget to repair, lol!
 TukuiErrorHide = true						-- hide this fucking red frame spamming my middle screen for nothing.
 TukuiMap = true								-- reskinned map for tukui
-TukuiCombatFont = true						-- enable tukui combat font for sct, damage text, etc. (require a restart of wow)
+TukuiCombatFont = false						-- enable tukui combat font for sct, damage text, etc. (require a restart of wow)
 
 -------------------------------------------------------------------------------------------------------------------------------
 -- UnitFrame options
@@ -183,7 +183,7 @@ hide_hotkey = true
 
 cursortooltip = false					-- tooltip on cursor instead of fix position
 hide_units = false						-- always hide only units (npc, players, etc)
-hide_units_combat = true				-- hide units if in combat (useful when cursortooltip is active)
+hide_units_combat = false				-- hide units if in combat (useful when cursortooltip is active)
 hide_all_tooltips = false 				-- i don't recommend enabling this, this was a only request for a friend
 hide_uf_tooltip = true					-- hide tooltip on unitframe cause it sux!
 
