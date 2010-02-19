@@ -1475,7 +1475,7 @@ oUF:SetActiveStyle("Tukz")
 
 oUF:Spawn("player", "oUF_Tukz_player"):SetPoint("BOTTOM", UIParent, -224, 100 + uflayoutpos)
 oUF:Spawn("target", "oUF_Tukz_target"):SetPoint("BOTTOM", UIParent, 224, 100 + uflayoutpos)
-oUF:Spawn("pet", "oUF_Tukz_pet"):SetPoint("BOTTOM", 0, 144 + uflayoutpos)
+oUF:Spawn("pet", "oUF_Tukz_pet"):SetPoint("BOTTOM", 0, 170 + uflayoutpos)
 oUF:Spawn("focus", "oUF_Tukz_focus"):SetPoint("BOTTOMRIGHT", -34, 20)
 oUF:Spawn("targettarget", "oUF_Tukz_targettarget"):SetPoint("BOTTOM", 0, 100 + uflayoutpos)
 
