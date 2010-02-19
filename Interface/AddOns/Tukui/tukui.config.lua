@@ -38,7 +38,7 @@ TukuiCombatFont = true						-- enable tukui combat font for sct, damage text, et
 -------------------------------------------------------------------------------------------------------------------------------
 
 unitcastbar = true 							-- enable castbar
-cblatency = false 							-- castbar latency
+cblatency = true 							-- castbar latency
 cbicons = true 								-- castbar icons
 auratimer = false 							-- true to enable timer aura on player or target
 auratextscale = 11 							-- set font size on aura
@@ -47,7 +47,7 @@ TargetBuffs = true 							-- false to disable oUF buffs on the target frame
 lowThreshold = 20 							-- low mana threshold for all mana classes
 highThreshold = 80 							-- high mana treshold for hunters
 targetpowerpvponly = true 					-- mana text on pvp enemy target only
-totdebuffs = false 							-- show tot debuff (if true, you need to move pet frame)
+totdebuffs = true 							-- show tot debuff (if true, you need to move pet frame)
 playerdebuffsonly = false 					-- my debuff only on target, arena and bossframe.
 showfocustarget = false 					-- show focus target
 showtotalhpmp = false						-- show total mana / total hp text on player and target.
