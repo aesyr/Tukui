@@ -120,7 +120,8 @@ local function install()
 			SetCVar("cameraDistanceMax", 50)
 			SetCVar("cameraDistanceMaxFactor", 3.4)
 			SetCVar("chatLocked", 0)
-			
+
+--[[ Chat Setting disabled			
 			-- Var ok, now setting chat frames.					
 			FCF_ResetChatWindows()
 			FCF_DockFrame(ChatFrame2)
@@ -178,7 +179,7 @@ local function install()
 			ChatFrame_AddMessageGroup(ChatFrame4, "COMBAT_FACTION_CHANGE")
 			ChatFrame_AddMessageGroup(ChatFrame4, "LOOT")
 			ChatFrame_AddMessageGroup(ChatFrame4, "MONEY")
-			
+--]]			
 			-- enable classcolor automatically on login and on each character without doing /configure each time.
 			ToggleChatColorNamesByClassGroup(true, "SAY")
 			ToggleChatColorNamesByClassGroup(true, "EMOTE")
