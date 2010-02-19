@@ -112,7 +112,7 @@ FONT 				= "fonts\\ARIALN.ttf"
 ----------------------------------------------------------------------------------------
 
 
-local statpanel7 = CreateFrame("frame",leftrectanglelol, abt)
+local statpanel7 = CreateFrame("frame",leftrectanglelol, Minimap)
 	statpanel7:SetFrameLevel(2)
 	statpanel7:SetFrameStrata("BACKGROUND")
 	statpanel7:SetHeight(20)
