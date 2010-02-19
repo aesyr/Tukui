@@ -121,8 +121,8 @@ local function PLAYER_ENTERING_WORLD()
 	left:Hide(); mid:Hide(); right:Hide()
 	ChatFrameEditBox:ClearAllPoints();
 	
-	ChatFrameEditBox:SetPoint("BOTTOMLEFT", ChatFrame1, "BOTTOMLEFT", -2, -34)
-	ChatFrameEditBox:SetPoint("BOTTOMRIGHT", ChatFrame1, "BOTTOMRIGHT", 4, -34)
+	ChatFrameEditBox:SetPoint("BOTTOMLEFT", ChatFrame1, "BOTTOMLEFT", -5, -34)
+	ChatFrameEditBox:SetPoint("BOTTOMRIGHT", ChatFrame1, "BOTTOMRIGHT", 6, -34)
 
 	-- Disable alt key usage
 	ChatFrameEditBox:SetAltArrowKeyMode(false)
@@ -132,8 +132,8 @@ local function PLAYER_ENTERING_WORLD()
 	
 	-- Position the general chat frame
 	ChatFrame1:ClearAllPoints()
-	ChatFrame1:SetPoint("BOTTOMLEFT", UIParent, 31, 48)
-	ChatFrame1:SetWidth(tinfowidth + 1)
+	ChatFrame1:SetPoint("BOTTOMLEFT", UIParent, 16, 48)
+	ChatFrame1:SetWidth(tinfowidth -4)
 	ChatFrame1:SetHeight(111)
 		
 		-- Position the combatlog
