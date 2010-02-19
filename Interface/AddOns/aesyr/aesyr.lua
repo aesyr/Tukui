@@ -8,6 +8,8 @@ LoadAddOn('Quartz_Focus'); -- we have to load it, to disable it, whee!
 
 -- We disables 'actionbar.lua' when this AddOn is loaded, and prepare the blizzard default actionbars here.
 
+MultiBarRight:SetScale(0.8);
+MultiBarLeft:SetScale(0.8);
 MultiBarBottomLeft:SetScale(0.8);
 MultiBarBottomRight:SetScale(0.8);
 MainMenuBar:SetScale(0.8);
@@ -23,6 +25,13 @@ MainMenuBarRightEndCap:ClearAllPoints();
 MainMenuBarRightEndCap:SetPoint("LEFT", MainMenuBar, "RIGHT", -10, 33);
 MainMenuBarRightEndCap:SetWidth(256);
 MainMenuBarRightEndCap:SetHeight(129);
+
+MultiBarRightButton1:ClearAllPoints()
+MultiBarRightButton1:SetPoint("RIGHT",UIParent,"RIGHT",-2,101)
+
+MultiBarLeftButton1:ClearAllPoints()
+MultiBarLeftButton1:SetPoint("RIGHT",UIParent,"RIGHT",-46,101)
+
 
 -- fix for the scale fix! (we don't give a shit if people have AutoScale set to true ..the MainMenuBar is so huge, it needs to be scaled all the way down
 --[[local scalefixfix = CreateFrame("Frame")
